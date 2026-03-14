@@ -1,0 +1,35 @@
+{
+  "name": "NexusChat",
+  "short_name": "NexusChat",
+  "description": "Real-time messaging, voice and video calls",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0e1117",
+  "theme_color": "#ff6b47",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='40' fill='%23ff6b47'/%3E%3Crect x='52' y='52' width='88' height='64' rx='18' fill='white'/%3E%3Cpath d='M68 116 L60 144 L88 116 Z' fill='white'/%3E%3Ccircle cx='76' cy='84' r='8' fill='%23ff6b47'/%3E%3Ccircle cx='96' cy='84' r='8' fill='%23ff6b47'/%3E%3Ccircle cx='116' cy='84' r='8' fill='%23ff6b47'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='110' fill='%23ff6b47'/%3E%3Crect x='140' y='140' width='232' height='168' rx='48' fill='white'/%3E%3Cpath d='M180 308 L156 384 L232 308 Z' fill='white'/%3E%3Ccircle cx='202' cy='224' r='21' fill='%23ff6b47'/%3E%3Ccircle cx='256' cy='224' r='21' fill='%23ff6b47'/%3E%3Ccircle cx='310' cy='224' r='21' fill='%23ff6b47'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["communication", "social"],
+  "shortcuts": [
+    {
+      "name": "New Chat",
+      "short_name": "Chat",
+      "description": "Start a new conversation",
+      "url": "/?action=new-chat"
+    }
+  ],
+  "prefer_related_applications": false
+}
+
